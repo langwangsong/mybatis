@@ -220,4 +220,77 @@ public class UserMapperTest extends BaseMapperTest {
             sqlSession.close();
         }
     }
+    @Test
+    public void testSelectByUser(){
+        SqlSession sqlSession = getSqlSession();
+        try{
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            //只查询用户名时
+            SysUser query = new SysUser();
+            query.setUserName("ad");
+            List<SysUser> userList = userMapper.selectByUser(query);
+            Assert.assertTrue(userList.size()>0);
+            //只查询用户邮箱
+            query = new SysUser();
+            query.setUserEmail("test@qq.com");
+            userList = userMapper.selectByUser(query);
+            Assert.assertTrue(userList.size()>0);
+            //当同时查询用户名和邮箱时
+            query = new SysUser();
+            query.setUserName("ad");
+            query.setUserEmail("test@qq.com");
+            userList = userMapper.selectByUser(query);
+            //由于没有同时满足两个条件的用户，因此查询的结果为0
+            Assert.assertTrue(userList.size()==0);
+        }finally {
+            sqlSession.close();
+        }
+    }
+    @Test
+    public void testUpdateByIdSelective(){
+        SqlSession sqlSession = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            //创建一个user对象
+            SysUser user = new SysUser();
+            //更新 id=1 的用户
+            user.setId(1L);
+            //修改邮箱
+            user.setUserEmail("test@qq.com");
+            //更新邮箱，特别注意，这里的返回值是影响的行数
+            int result = userMapper.updateByIdSelective(user);
+            //只更新一条数据
+            Assert.assertEquals(1,result);
+            //根据当前的id查询被修改的数据
+            user = userMapper.selectById(1L);
+            //修改后的名字保持不变，但是邮箱变成了新的
+            Assert.assertEquals("admin",user.getUserName());
+            Assert.assertEquals("test@qq.com",user.getUserEmail());
+        }finally {
+            //为了不影响其他测试，这里选择回滚
+            sqlSession.rollback();
+            sqlSession.close();
+        }
+    }
+    @Test
+    public void testInsert2Selective(){
+        SqlSession sqlSession = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            //创建一个user对象
+            SysUser user = new SysUser();
+            user.setUserName("test-selective");
+            user.setUserPassword("123456");
+            user.setUserInfo("test info");
+            user.setCreateTime(new Date());
+            //插入数据库
+            userMapper.insert2(user);
+            //获得插入的这条数据
+            user = userMapper.selectById(user.getId());
+            Assert.assertEquals("test@qq.com",user.getUserEmail());
+        }finally {
+            sqlSession.rollback();
+            sqlSession.close();
+        }
+    }
 }

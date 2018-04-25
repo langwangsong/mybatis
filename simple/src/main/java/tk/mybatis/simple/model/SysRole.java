@@ -9,7 +9,7 @@ public class SysRole {
     private Long id;//角色ID
     private String roleName;//角色名
     private  Integer enabled;//有效状态
-    private  Long createdBy;//创建人
+    private  Long createBy;//创建人
     private Date createTime;//创建时间
 
     public Long getId() {
@@ -36,12 +36,12 @@ public class SysRole {
         this.enabled = enabled;
     }
 
-    public Long getCreatedBy() {
-        return createdBy;
+    public Long getCreateBy() {
+        return createBy;
     }
 
-    public void setCreatedBy(Long createdBy) {
-        this.createdBy = createdBy;
+    public void setCreateBy(Long createBy) {
+        this.createBy = createBy;
     }
 
     public Date getCreateTime() {

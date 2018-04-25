@@ -4,7 +4,7 @@ CREATE TABLE sys_user(
 	user_password VARCHAR(50) COMMENT '密码',
 	user_email VARCHAR(50) COMMENT '邮箱',
 	user_info TEXT COMMENT '简介',
-	user_img BLOB COMMENT '头像',
+	head_img BLOB COMMENT '头像',
 	create_time DATETIME COMMENT '创建时间',
 	PRIMARY KEY (id)	
 );

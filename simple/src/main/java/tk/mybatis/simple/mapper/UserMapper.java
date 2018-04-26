@@ -5,6 +5,7 @@ import tk.mybatis.simple.model.SysRole;
 import tk.mybatis.simple.model.SysUser;
 
 import java.util.List;
+import java.util.Map;
 
 public interface UserMapper {
     /**
@@ -58,4 +59,20 @@ public interface UserMapper {
      * 根据主键更新
      */
     int updateByIdSelective(SysUser sysUser);
+    /**
+     * 根据用户Id或用户名查询
+     */
+    SysUser selectByIdOrUserName(SysUser sysUser);
+    /**
+     * 根据用户id集合查询
+     */
+    List<SysUser> selectByIdList(List<Long> idList);
+    /**
+     * 批量插入用户信息
+     */
+    int insertList(List<SysUser> userList);
+    /**
+     * 通过Map更新列
+     */
+    int updateByMap(Map<String,Object> map);
 }

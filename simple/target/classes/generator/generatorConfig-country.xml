@@ -3,9 +3,8 @@
         PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <generatorConfiguration>
-    <context id="MySqlContext" targetRuntime="MyBatis3Simple" defaultModelType="flat">
-        <property name="beginningDelimiter" value="`"/>
-        <property name="endingDelimiter" value="`"/>
+    <context id="MySqlContext" targetRuntime="MyBatis3" defaultModelType="flat">
+        <property name="javaFileEncoding" value="UTF-8"/>
         <commentGenerator>
             <property name="suppressData" value="true"/>
             <property name="addRemarkComments" value="true"/>
@@ -14,13 +13,13 @@
                         connectionURL="jdbc:mysql:///mybatis"
                         userId="root" password="root">
         </jdbcConnection>
-        <javaModelGenerator targetPackage="test.model" targetProject="src\main\java">
+        <javaModelGenerator targetPackage="tk.mybatis.simple.model" targetProject="src\main\java">
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
-        <sqlMapGenerator targetPackage="test.xml" targetProject="src\main\resources"/>
-        <javaClientGenerator type="XMLMAPPER" targetPackage="test.dao"
+        <sqlMapGenerator targetPackage="tk.mybatis.simple.mapper" targetProject="src\main\resources"/>
+        <javaClientGenerator type="XMLMAPPER" targetPackage="tk.mybatis.simple.mapper"
                              targetProject="src\main\java"/>
-        <table tableName="%">
+        <table tableName="country">
             <generatedKey column="id" sqlStatement="MySql"/>
         </table>
     </context>

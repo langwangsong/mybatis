@@ -5,8 +5,9 @@
 <configuration>
     <settings>
         <setting name="logImpl" value="LOG4J"/>
+        <!-- 其他配置  默认为false -->
+        <setting name="aggressiveLazyLoading" value="false"/>
     </settings>
-
     <typeAliases>
         <package name="tk.mybatis.simple.model"/>
     </typeAliases>

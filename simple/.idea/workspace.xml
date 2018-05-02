@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b9ae323-d865-4317-a35a-8840e93f6eb9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/mybatis/generator/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig-country.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/CreateInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/CountryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/CountryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/CountryMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/CountryMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/mapper/PrivilegeProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/mapper/PrivilegeProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/PrivilegeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/PrivilegeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/RoleMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/RoleMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/mapper/PrivilegeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/mapper/PrivilegeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/mapper/RoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/model/SysRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/model/SysRole.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/model/SysUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/mybatis/simple/model/SysUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tk/mybatis/simple/mapper/RoleMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tk/mybatis/simple/mapper/RoleMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tk/mybatis/simple/mapper/UserMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tk/mybatis/simple/mapper/UserMapperTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,61 +35,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Generator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/generator/Generator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountryMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/CountryMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="128" column="29" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountryMapperTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/CountryMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="87" column="25" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="35" />
-              <folding>
-                <element signature="method#testSelectAll#0;class#CountryMapperTest#0" />
-                <element signature="method#testExample#0;class#CountryMapperTest#0" />
-                <element signature="method#testUpdateExampleSelective#0;class#CountryMapperTest#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Country.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/Country.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="107" column="5" lean-forward="true" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generatorConfig-country.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/generator/generatorConfig-country.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="66" lean-forward="true" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,17 +51,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/UserMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/tk/mybatis/generator/Generator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/generator/generatorConfig-country.xml" />
         <option value="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/Country.java" />
         <option value="$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/CountryMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/UserRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysUser.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/RolePrivilegeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/CreateInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysRole.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/PrivilegeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/tk/mybatis/simple/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/RoleMapperTest.java" />
       </list>
     </option>
   </component>
@@ -115,11 +80,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="287" />
-    <option name="y" value="90" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="89" />
+    <option name="y" value="284" />
     <option name="width" value="1460" />
-    <option name="height" value="841" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -129,6 +94,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,9 +209,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,22 +234,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CountryMapperTest.testDeleteByExample">
-    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tk.mybatis.generator.Generator" />
-      <module name="simple" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tk.mybatis.generator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RoleMapperTest.testSelectAllRoleAndPrivileges">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CountryMapperTest.testDeleteByExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoleMapperTest.testSelectAllRoleAndPrivileges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simple" />
       <extension name="coverage">
         <pattern>
@@ -295,8 +249,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tk.mybatis.simple.mapper" />
-      <option name="MAIN_CLASS_NAME" value="tk.mybatis.simple.mapper.CountryMapperTest" />
-      <option name="METHOD_NAME" value="testDeleteByExample" />
+      <option name="MAIN_CLASS_NAME" value="tk.mybatis.simple.mapper.RoleMapperTest" />
+      <option name="METHOD_NAME" value="testSelectAllRoleAndPrivileges" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -307,53 +261,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CountryMapperTest.testExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="simple" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tk.mybatis.simple.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tk.mybatis.simple.mapper" />
-      <option name="MAIN_CLASS_NAME" value="tk.mybatis.simple.mapper.CountryMapperTest" />
-      <option name="METHOD_NAME" value="testExample" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CountryMapperTest.testUpdateExampleSelective" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="simple" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tk.mybatis.simple.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tk.mybatis.simple.mapper" />
-      <option name="MAIN_CLASS_NAME" value="tk.mybatis.simple.mapper.CountryMapperTest" />
-      <option name="METHOD_NAME" value="testUpdateExampleSelective" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UserMapperTest.testSelectByUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserMapperTest.testSelectAllUserAndRoles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simple" />
       <extension name="coverage">
         <pattern>
@@ -365,7 +273,76 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tk.mybatis.simple.mapper" />
       <option name="MAIN_CLASS_NAME" value="tk.mybatis.simple.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="testSelectByUser" />
+      <option name="METHOD_NAME" value="testSelectAllUserAndRoles" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserMapperTest.testSelectAllUserAndRolesSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tk.mybatis.simple.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tk.mybatis.simple.mapper" />
+      <option name="MAIN_CLASS_NAME" value="tk.mybatis.simple.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="testSelectAllUserAndRolesSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserMapperTest.testSelectUserAndRoleById2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tk.mybatis.simple.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tk.mybatis.simple.mapper" />
+      <option name="MAIN_CLASS_NAME" value="tk.mybatis.simple.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="testSelectUserAndRoleById2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserMapperTest.testSelectUserAndRoleByIdSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tk.mybatis.simple.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tk.mybatis.simple.mapper" />
+      <option name="MAIN_CLASS_NAME" value="tk.mybatis.simple.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="testSelectUserAndRoleByIdSelect" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -415,19 +392,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserMapperTest.testSelectByUser" />
-      <item itemvalue="Application.Generator" />
-      <item itemvalue="JUnit.CountryMapperTest.testExample" />
-      <item itemvalue="JUnit.CountryMapperTest.testUpdateExampleSelective" />
-      <item itemvalue="JUnit.CountryMapperTest.testDeleteByExample" />
+      <item itemvalue="JUnit.UserMapperTest.testSelectUserAndRoleById2" />
+      <item itemvalue="JUnit.UserMapperTest.testSelectUserAndRoleByIdSelect" />
+      <item itemvalue="JUnit.UserMapperTest.testSelectAllUserAndRoles" />
+      <item itemvalue="JUnit.RoleMapperTest.testSelectAllRoleAndPrivileges" />
+      <item itemvalue="JUnit.UserMapperTest.testSelectAllUserAndRolesSelect" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CountryMapperTest.testDeleteByExample" />
-        <item itemvalue="JUnit.CountryMapperTest.testUpdateExampleSelective" />
-        <item itemvalue="JUnit.CountryMapperTest.testExample" />
-        <item itemvalue="Application.Generator" />
-        <item itemvalue="JUnit.UserMapperTest.testSelectByUser" />
+        <item itemvalue="JUnit.RoleMapperTest.testSelectAllRoleAndPrivileges" />
+        <item itemvalue="JUnit.UserMapperTest.testSelectAllUserAndRolesSelect" />
+        <item itemvalue="JUnit.UserMapperTest.testSelectAllUserAndRoles" />
+        <item itemvalue="JUnit.UserMapperTest.testSelectUserAndRoleByIdSelect" />
+        <item itemvalue="JUnit.UserMapperTest.testSelectUserAndRoleById2" />
       </list>
     </recent_temporary>
   </component>
@@ -445,40 +422,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserMapperTest_testInsertList - 2018.04.26 at 13h 01m 06s.xml">
-      <configuration name="UserMapperTest.testInsertList" configurationId="JUnit" />
+    <history-entry file="RoleMapperTest_testSelectAllRoleAndPrivileges - 2018.04.28 at 17h 58m 54s.xml">
+      <configuration name="RoleMapperTest.testSelectAllRoleAndPrivileges" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapperTest_testInsertList - 2018.04.26 at 14h 21m 10s.xml">
-      <configuration name="UserMapperTest.testInsertList" configurationId="JUnit" />
+    <history-entry file="RoleMapperTest_testSelectAllRoleAndPrivileges - 2018.04.28 at 18h 01m 45s.xml">
+      <configuration name="RoleMapperTest.testSelectAllRoleAndPrivileges" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapperTest_testInsertList - 2018.04.26 at 14h 21m 56s.xml">
-      <configuration name="UserMapperTest.testInsertList" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testSelectAllUserAndRolesSelect - 2018.04.28 at 18h 26m 24s.xml">
+      <configuration name="UserMapperTest.testSelectAllUserAndRolesSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapperTest_testInsertList - 2018.04.26 at 14h 23m 00s.xml">
-      <configuration name="UserMapperTest.testInsertList" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testSelectAllUserAndRolesSelect - 2018.04.28 at 18h 27m 32s.xml">
+      <configuration name="UserMapperTest.testSelectAllUserAndRolesSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapperTest_testUpdateByMap - 2018.04.26 at 15h 25m 48s.xml">
-      <configuration name="UserMapperTest.testUpdateByMap" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testSelectAllUserAndRolesSelect - 2018.04.28 at 18h 28m 13s.xml">
+      <configuration name="UserMapperTest.testSelectAllUserAndRolesSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapperTest_testSelectByUser - 2018.04.26 at 15h 28m 55s.xml">
-      <configuration name="UserMapperTest.testSelectByUser" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testSelectAllUserAndRolesSelect - 2018.04.28 at 18h 31m 09s.xml">
+      <configuration name="UserMapperTest.testSelectAllUserAndRolesSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryMapperTest_testExample - 2018.04.26 at 20h 34m 55s.xml">
-      <configuration name="CountryMapperTest.testExample" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testSelectAllUserAndRolesSelect - 2018.04.28 at 18h 33m 09s.xml">
+      <configuration name="UserMapperTest.testSelectAllUserAndRolesSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryMapperTest_testUpdateExampleSelective - 2018.04.26 at 20h 45m 20s.xml">
-      <configuration name="CountryMapperTest.testUpdateExampleSelective" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testSelectAllUserAndRolesSelect - 2018.04.28 at 18h 36m 26s.xml">
+      <configuration name="UserMapperTest.testSelectAllUserAndRolesSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryMapperTest_testUpdateExampleSelective - 2018.04.26 at 20h 47m 34s.xml">
-      <configuration name="CountryMapperTest.testUpdateExampleSelective" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_testSelectAllUserAndRolesSelect - 2018.04.28 at 18h 37m 42s.xml">
+      <configuration name="UserMapperTest.testSelectAllUserAndRolesSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryMapperTest_testUpdateExampleSelective - 2018.04.26 at 20h 49m 47s.xml">
-      <configuration name="CountryMapperTest.testUpdateExampleSelective" configurationId="JUnit" />
+    <history-entry file="RoleMapperTest_testSelectAllRoleAndPrivileges - 2018.04.29 at 17h 39m 47s.xml">
+      <configuration name="RoleMapperTest.testSelectAllRoleAndPrivileges" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="89" y="284" width="1460" height="878" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -489,11 +465,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50138503" side_tool="true" weight="0.31310344" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49861497" visible="true" weight="0.49042553" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49861497" weight="0.27310345" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -511,7 +487,182 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="108" column="57" selection-start-line="108" selection-start-column="57" selection-end-line="108" selection-end-column="57" />
+          <folding>
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="258" column="59" lean-forward="true" selection-start-line="258" selection-start-column="59" selection-end-line="258" selection-end-column="59" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#2;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#insert#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#4;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#5;n#mapper#0;n#!!top" />
+            <element signature="n#select#6;n#mapper#0;n#!!top" />
+            <element signature="n#insert#3;n#mapper#0;n#!!top" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#select#7;n#mapper#0;n#!!top" />
+            <element signature="n#select#8;n#mapper#0;n#!!top" />
+            <element signature="n#select#9;n#mapper#0;n#!!top" />
+            <element signature="n#select#10;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="81" lean-forward="true" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="71" column="33" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/RoleMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testSelectById#0;class#RoleMapperTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+          <folding>
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="200" column="33" lean-forward="true" selection-start-line="200" selection-start-column="33" selection-end-line="200" selection-end-column="33" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#2;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#insert#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#4;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#5;n#mapper#0;n#!!top" />
+            <element signature="n#select#6;n#mapper#0;n#!!top" />
+            <element signature="n#insert#3;n#mapper#0;n#!!top" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#select#7;n#mapper#0;n#!!top" />
+            <element signature="n#select#8;n#mapper#0;n#!!top" />
+            <element signature="n#select#9;n#mapper#0;n#!!top" />
+            <element signature="n#select#10;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1998">
+          <caret line="79" column="27" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="392" column="27" selection-start-line="392" selection-start-column="19" selection-end-line="392" selection-end-column="27" />
+          <folding>
+            <element signature="method#testSelectById#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectAll#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectRolesByUserId#0;class#UserMapperTest#0" />
+            <element signature="method#testInsert#0;class#UserMapperTest#0" />
+            <element signature="method#testInsert2#0;class#UserMapperTest#0" />
+            <element signature="method#testInsert3#0;class#UserMapperTest#0" />
+            <element signature="method#testUpdateById#0;class#UserMapperTest#0" />
+            <element signature="method#testDeleteById#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectRolesByUserIdAndRoleEnabled#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectByUser#0;class#UserMapperTest#0" />
+            <element signature="method#testUpdateByIdSelective#0;class#UserMapperTest#0" />
+            <element signature="method#testInsert2Selective#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectByIdOrUserName#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectByIdList#0;class#UserMapperTest#0" />
+            <element signature="e#11587#11593#0" expanded="true" />
+            <element signature="method#testInsertList#0;class#UserMapperTest#0" />
+            <element signature="e#12145#12154#0" expanded="true" />
+            <element signature="method#testUpdateByMap#0;class#UserMapperTest#0" />
+            <element signature="e#13051#13066#0" expanded="true" />
+            <element signature="method#testSelectUserAndRoleById#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectUserAndRoleById2#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectUserAndRoleByIdSelect#0;class#UserMapperTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -527,44 +678,6 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Object.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/UserMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="236" column="23" lean-forward="true" selection-start-line="236" selection-start-column="23" selection-end-line="236" selection-end-column="23" />
-          <folding>
-            <element signature="e#13051#13066#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="107" column="65" selection-start-line="107" selection-start-column="65" selection-end-line="107" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -597,9 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -640,12 +750,206 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/CountryMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="87" column="25" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="35" />
+        <state relative-caret-position="297">
+          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/UserRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/RolePrivilegeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysPrivilege.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysRolePrivilege.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/mapper/PrivilegeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/PrivilegeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
-            <element signature="method#testSelectAll#0;class#CountryMapperTest#0" />
-            <element signature="method#testExample#0;class#CountryMapperTest#0" />
-            <element signature="method#testUpdateExampleSelective#0;class#CountryMapperTest#0" />
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="275" column="26" lean-forward="true" selection-start-line="275" selection-start-column="26" selection-end-line="275" selection-end-column="26" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#2;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#insert#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#4;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#5;n#mapper#0;n#!!top" />
+            <element signature="n#select#6;n#mapper#0;n#!!top" />
+            <element signature="n#insert#3;n#mapper#0;n#!!top" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#select#7;n#mapper#0;n#!!top" />
+            <element signature="n#select#8;n#mapper#0;n#!!top" />
+            <element signature="n#select#9;n#mapper#0;n#!!top" />
+            <element signature="n#select#10;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="465" column="40" selection-start-line="465" selection-start-column="40" selection-end-line="465" selection-end-column="40" />
+          <folding>
+            <element signature="method#testSelectById#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectAll#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectRolesByUserId#0;class#UserMapperTest#0" />
+            <element signature="method#testInsert#0;class#UserMapperTest#0" />
+            <element signature="method#testInsert2#0;class#UserMapperTest#0" />
+            <element signature="method#testInsert3#0;class#UserMapperTest#0" />
+            <element signature="method#testUpdateById#0;class#UserMapperTest#0" />
+            <element signature="method#testDeleteById#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectRolesByUserIdAndRoleEnabled#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectByUser#0;class#UserMapperTest#0" />
+            <element signature="method#testUpdateByIdSelective#0;class#UserMapperTest#0" />
+            <element signature="method#testInsert2Selective#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectByIdOrUserName#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectByIdList#0;class#UserMapperTest#0" />
+            <element signature="method#testInsertList#0;class#UserMapperTest#0" />
+            <element signature="method#testUpdateByMap#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectUserAndRoleById#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectUserAndRoleById2#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectUserAndRoleByIdSelect#0;class#UserMapperTest#0" />
+            <element signature="method#testSelectAllUserAndRoles#0;class#UserMapperTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="99" column="7" lean-forward="true" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="93" column="24" lean-forward="true" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
+          <folding>
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/CreateInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/model/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="60" column="46" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/mapper/RolePrivilegeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tk/mybatis/simple/mapper/RoleMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testSelectById#0;class#RoleMapperTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tk/mybatis/simple/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="49" column="44" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="44" />
+          <folding>
+            <element signature="e#174#311#1" />
+            <element signature="e#350#691#0" />
+            <element signature="e#827#1002#1" />
+            <element signature="e#1040#1206#0" />
+            <element signature="e#1302#1477#0" />
+            <element signature="e#1680#1921#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tk/mybatis/simple/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
           </folding>
         </state>
       </provider>

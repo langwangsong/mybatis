@@ -3,6 +3,8 @@ package tk.mybatis.simple.mapper;
 import org.apache.ibatis.annotations.*;
 import tk.mybatis.simple.model.SysRole;
 
+import java.util.List;
+
 public interface RoleMapper {
     @Select({"select id,role_name roleName,enabled,create_by createBy,create_time createTime",
             "from sys_role","where id=#{id}"})
@@ -42,4 +44,8 @@ public interface RoleMapper {
     int updateById(SysRole sysRole);
     @Delete("delete from sys_role where id = #{id}")
     int deleteById(Long id);
+    /**
+     * 查询所有的角色和相应的权限
+     */
+    List<SysRole> selectAllRoleAndPrivileges();
 }

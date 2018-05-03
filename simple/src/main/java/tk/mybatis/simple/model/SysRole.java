@@ -1,5 +1,7 @@
 package tk.mybatis.simple.model;
 
+import tk.mybatis.simple.type.Enabled;
+
 import java.util.Date;
 import java.util.List;
 
@@ -9,9 +11,19 @@ import java.util.List;
 public class SysRole {
     private Long id;//角色ID
     private String roleName;//角色名
-    private  Integer enabled;//有效状态
+    //private  Integer enabled;//有效状态
     private  Long createBy;//创建人
     private Date createTime;//创建时间
+    //有效标志
+    private Enabled enabled;
+
+    public void setEnabled(Enabled enabled) {
+        this.enabled = enabled;
+    }
+
+    public Enabled getEnabled() {
+        return enabled;
+    }
 
     public Long getId() {
         return id;
@@ -29,13 +41,13 @@ public class SysRole {
         this.roleName = roleName;
     }
 
-    public Integer getEnabled() {
-        return enabled;
-    }
+//    public Integer getEnabled() {
+//        return enabled;
+//    }
 
-    public void setEnabled(Integer enabled) {
-        this.enabled = enabled;
-    }
+//    public void setEnabled(Integer enabled) {
+//        this.enabled = enabled;
+//    }
 
     public Long getCreateBy() {
         return createBy;
@@ -84,9 +96,11 @@ public class SysRole {
         return "SysRole{" +
                 "id=" + id +
                 ", roleName='" + roleName + '\'' +
-                ", enabled=" + enabled +
                 ", createBy=" + createBy +
                 ", createTime=" + createTime +
+                ", enabled=" + enabled +
+                ", privilegeList=" + privilegeList +
+                ", createInfo=" + createInfo +
                 '}';
     }
 }

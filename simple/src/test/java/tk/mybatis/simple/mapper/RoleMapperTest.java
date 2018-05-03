@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import tk.mybatis.simple.model.SysPrivilege;
 import tk.mybatis.simple.model.SysRole;
+import tk.mybatis.simple.type.Enabled;
 
 import java.util.List;
 
@@ -34,11 +35,12 @@ public class RoleMapperTest extends BaseMapperTest{
         try {
             //获取RoleMapper接口
             RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
-            //调用selectById方法，查询Id=1的角色
-            SysRole sysRole = roleMapper.selectById(1L);
-            sysRole.setEnabled(0);
+            //先查询出角色，然后修改角色的enabled的值为disabled
+            SysRole sysRole = roleMapper.selectById(2L);
+            Assert.assertEquals(Enabled.enabled,sysRole.getEnabled());
+            sysRole.setEnabled(Enabled.disabled);
             roleMapper.updateById(sysRole);
-            System.out.println(sysRole.getEnabled());
+
         }finally {
             sqlSession.rollback();
             sqlSession.close();
@@ -73,7 +75,7 @@ public class RoleMapperTest extends BaseMapperTest{
             RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
             //由于数据库中数据enabled都为1，所以给其中一个角色的enabled赋值为0
             SysRole role = roleMapper.selectById(2L);
-            role.setEnabled(0);
+            role.setEnabled(Enabled.disabled);
             roleMapper.updateById(role);
             //获取用户1的角色
             List<SysRole> roleList = roleMapper.selectRoleByUserIdChoose(1L);

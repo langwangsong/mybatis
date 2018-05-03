@@ -510,4 +510,29 @@ public class UserMapperTest extends BaseMapperTest {
             sqlSession.close();
         }
     }
+    @Test
+    public void testInsertAndDelete(){
+        SqlSession sqlSession = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            SysUser user = new SysUser();
+            user.setUserName("test1");
+            user.setUserPassword("123456");
+            user.setUserEmail("test@QQ.COM");
+            user.setUserInfo("test info");
+            user.setHeadImg(new byte[]{1,2,3});
+            //插入用户信息和角色关联信息
+            userMapper.insertUserAndRoles(user,"1,2");
+            Assert.assertNotNull(user.getId());
+            Assert.assertNotNull(user.getCreateTime());
+            System.out.println(user);
+            //可以执行下面的commit后再查看数据库中的数据
+            //sqlSession.commit();
+            //测试删除刚才插入的数据
+            userMapper.deleteUserById(user.getId());
+        }finally {
+            sqlSession.close();
+        }
+    }
+
 }

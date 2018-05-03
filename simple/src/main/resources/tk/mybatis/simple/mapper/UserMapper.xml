@@ -275,4 +275,23 @@
         from sys_user u
         where u.id = #{id}
     </select>
+    <select id="selectUserById" statementType="CALLABLE" useCache="false">
+        {call select_user_by_id(
+            #{id,mode=IN},
+            #{userName,mode=OUT,jdbcType=VARCHAR},
+            #{userPassword,mode=OUT,jdbcType=VARCHAR},
+            #{userEmail,mode=OUT,jdbcType=VARCHAR},
+            #{userInfo,mode=OUT,jdbcType=VARCHAR},
+            #{headImg,mode=OUT,jdbcType=BLOB,javaType=_byte[]},
+            #{createTime,mode=OUT,jdbcType=TIMESTAMP}
+        )}
+    </select>
+    <select id="selectUserPage" statementType="CALLABLE" useCache="false" resultMap="userMap">
+        {call select_user_page(
+            #{userName,mode=IN},
+            #{offset,mode=IN},
+            #{limit,mode=IN},
+            #{total,mode=OUT,jdbcType=BIGINT}
+        )}
+    </select>
 </mapper>

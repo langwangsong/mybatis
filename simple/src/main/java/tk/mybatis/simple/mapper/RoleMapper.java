@@ -35,10 +35,10 @@ public interface RoleMapper {
                 before = false)
     int insert3(SysRole sysRole);
 
-    @Update({"update sys_role ",
-            "set role_name = #{roleName}",
-            "enabled = #{enabled}",
-            "create_by = #{createBy}",
+    @Update({"update sys_role",
+            "set role_name = #{roleName},",
+            "enabled = #{enabled},",
+            "create_by = #{createBy},",
             "create_time = #{createTime,jdbcType=TIMESTAMP}",
             "where id = #{id}"})
     int updateById(SysRole sysRole);
@@ -48,4 +48,8 @@ public interface RoleMapper {
      * 查询所有的角色和相应的权限
      */
     List<SysRole> selectAllRoleAndPrivileges();
+    /**
+     * 根据用户ID获取用户的角色信息
+     */
+    List<SysRole> selectRoleByUserIdChoose(Long userId);
 }

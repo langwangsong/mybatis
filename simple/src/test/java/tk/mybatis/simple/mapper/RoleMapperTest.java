@@ -28,6 +28,23 @@ public class RoleMapperTest extends BaseMapperTest{
         }
     }
     @Test
+    public void testUpdateById(){
+        //获取sqlSession
+        SqlSession sqlSession = getSqlSession();
+        try {
+            //获取RoleMapper接口
+            RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
+            //调用selectById方法，查询Id=1的角色
+            SysRole sysRole = roleMapper.selectById(1L);
+            sysRole.setEnabled(0);
+            roleMapper.updateById(sysRole);
+            System.out.println(sysRole.getEnabled());
+        }finally {
+            sqlSession.rollback();
+            sqlSession.close();
+        }
+    }
+    @Test
     public void testSelectAllRoleAndPrivileges(){
         //获取sqlSession
         SqlSession sqlSession = getSqlSession();
@@ -47,5 +64,38 @@ public class RoleMapperTest extends BaseMapperTest{
             sqlSession.close();
         }
     }
-
+    @Test
+    public void testSelectRoleByUserIdChoose(){
+        //获取sqlSession
+        SqlSession sqlSession = getSqlSession();
+        try {
+            //获取RoleMapper接口
+            RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
+            //由于数据库中数据enabled都为1，所以给其中一个角色的enabled赋值为0
+            SysRole role = roleMapper.selectById(2L);
+            role.setEnabled(0);
+            roleMapper.updateById(role);
+            //获取用户1的角色
+            List<SysRole> roleList = roleMapper.selectRoleByUserIdChoose(1L);
+            for (SysRole r: roleList
+                 ) {
+                System.out.println("角色名："+r.getRoleName());
+                if(r.getId().equals(1L)){
+                    //第一个角色存在权限信息
+                    Assert.assertNotNull(r.getPrivilegeList());
+                }else if(r.getId().equals(2L)){
+                    //第二个角色的权限为null
+                    Assert.assertNull(r.getPrivilegeList());
+                    continue;
+                }
+                for (SysPrivilege privilege:r.getPrivilegeList()
+                     ) {
+                    System.out.println("权限名："+privilege.getPrivilegeName());
+                }
+            }
+        }finally {
+            sqlSession.rollback();
+            sqlSession.close();
+        }
+    }
 }

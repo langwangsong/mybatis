@@ -1,10 +1,13 @@
 package tk.mybatis.simple.mapper;
 
 import org.apache.ibatis.annotations.*;
+import org.apache.ibatis.cache.decorators.FifoCache;
 import tk.mybatis.simple.model.SysRole;
 
 import java.util.List;
 
+//@CacheNamespace(eviction = FifoCache.class,flushInterval = 60000,size = 512,readWrite = true)
+@CacheNamespaceRef(RoleMapper.class)
 public interface RoleMapper {
     @Select({"select id,role_name roleName,enabled,create_by createBy,create_time createTime",
             "from sys_role","where id=#{id}"})

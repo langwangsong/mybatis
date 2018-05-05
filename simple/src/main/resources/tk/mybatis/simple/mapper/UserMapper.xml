@@ -3,6 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="tk.mybatis.simple.mapper.UserMapper">
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
     <resultMap id="userMap" type="tk.mybatis.simple.model.SysUser">
         <id property="id" column="id"/>
         <result property="userName" column="user_name"/>
